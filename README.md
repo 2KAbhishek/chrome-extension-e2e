@@ -45,16 +45,18 @@ Installing chrome-extension-e2e is as simple as cloning and symlinking!
 git clone https://github.com/2kabhishek/chrome-extension-e2e
 ```
 
-To load the extension in Chrome, open up chrome://extensions/ in your browser and click “Developer mode” in the top right.
-Now click “Load unpacked extension…” and select the extension’s `src` directory.
-You should now see the extension in the list.
-
 To run the tests, simply run the following command:
 
 ```bash
 yarn
 yarn test
 ```
+
+If you want to try the extension, you can load it in chrome as follows:
+
+1. Open up `chrome://extensions/` in your browser and click “Developer mode” in the top right.
+2. Now click “Load unpacked extension…” and select the extension’s `src` directory.
+3. You should now see the extension in the list.
 
 ## 🧑‍💻 Behind The Code
 
