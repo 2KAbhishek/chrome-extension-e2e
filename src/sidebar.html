@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Counter Sidebar</title>
+    <style>
+      body {
+        width: 100%;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      .counter {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .buttons {
+        display: flex;
+        gap: 10px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Counter App</h1>
+      <div class="counter" data-testid="counter">0</div>
+      <div class="buttons">
+        <button data-testid="increment">+</button>
+        <button data-testid="decrement">-</button>
+        <button data-testid="reset">Reset</button>
+      </div>
+    </div>
+    <script src="sidebar.js"></script>
+  </body>
+</html>

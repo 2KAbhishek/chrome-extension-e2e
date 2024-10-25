@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Counter Sidebar",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnm4bVQ0Jy0fKsUjx0oxV72VZ3MN2Pdm8wNKKgloMgePuHsmfjv/eQM6mMJyMWADSFJwx9/NI9ymnTwJndsoTSyg9dZDNtziu0NQY4D5KFoZcRe4VCOVgWrpJRFzuSmYM8+p8uGU/7jHH5D4KhSpz7CeFmoLOpwBM5+mbepy3/UNK31HzZmEmV68xNV35qM2nsM6OaBDpSRNFmutTSSbWv+blilht8o4cyFh7n852rM4ix7So/b/eK1PRvoKzhcv5ZgOKON1ZZ2L9qgQA7wA1722f3NyiDE+VWurWkqZqdPyaHgOOJ1o1b5h4WrydwrYncPXVvoE0rhF6ZtjKksFwswIDAQAB",
+  "version": "1.0",
+  "description": "A simple counter in a sidebar",
+  "permissions": ["sidePanel", "storage"],
+  "action": {
+    "default_title": "Open Counter Sidebar"
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
