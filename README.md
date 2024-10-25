@@ -20,29 +20,22 @@
 <a href="https://github.com/2KAbhishek/chrome-extension-e2e/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/chrome-extension-e2e?style=flat&color=e06c75&label="> </a>
 
-<h3>Short Sweet Headline 🎇🎉</h3>
-
-<figure>
-  <img src="docs/images/screenshot.png" alt="chrome-extension-e2e in action">
-  <br/>
-  <figcaption>chrome-extension-e2e in action</figcaption>
-</figure>
+<h3>End-to-end test demo for Chrome 🔬🌐</h3>
 
 </div>
 
-chrome-extension-e2e is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
+A demo created for showcasing end to end testing of a chrome extension using puppeteer.
 
 ## ✨ Features
 
-- Comes with a ready to go README template
-- Works with [mkrepo](https://github.com/2kabhishek/mkrepo)
+- Comes with a easy to modify counter extension
+- Comes with extensive tests for the extension
 
 ## ⚡ Setup
 
 ### ⚙️ Requirements
 
-- foo >= bar
-- bazz
+- Chrome Browser
 
 ### 💻 Installation
 
@@ -50,51 +43,34 @@ Installing chrome-extension-e2e is as simple as cloning and symlinking!
 
 ```bash
 git clone https://github.com/2kabhishek/chrome-extension-e2e
-cd chrome-extension-e2e
-<install_command>
 ```
 
-## 🚀 Usage
+To load the extension in Chrome, open up chrome://extensions/ in your browser and click “Developer mode” in the top right.
+Now click “Load unpacked extension…” and select the extension’s `src` directory.
+You should now see the extension in the list.
+
+To run the tests, simply run the following command:
 
 ```bash
-USAGE:
-    chrome-extension-e2e [FLAGS] [OPTIONS]
-Example:
-    chrome-extension-e2e
+yarn
+yarn test
 ```
-
-## 🏗️ What's Next
-
-Planning to add `<feature/module>`.
-
-### ✅ To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
 
 ## 🧑‍💻 Behind The Code
 
 ### 🌈 Inspiration
 
-chrome-extension-e2e was inspired by `<reason/idea>`.
+Was learning about testing chrome extensions and decided to create a demo for the same.
 
 ### 💡 Challenges/Learnings
 
-- The main challenges were `<issue/difficulty>`
-- I learned about `<learning/accomplishment>`
+- Learned about the chrome extension ecosystem and how to test them.
 
 ### 🧰 Tooling
 
 - [dots2k](https://github.com/2kabhishek/dots2k) — Dev Environment
 - [nvim2k](https://github.com/2kabhishek/nvim2k) — Personalized Editor
-- [sway2k](https://github.com/2kabhishek/sway2k) — Desktop Environment
-- [qute2k](https://github.com/2kabhishek/qute2k) — Personalized Browser
-
-### 🔍 More Info
-
-- [shelly](https://github.com/2kabhishek/shelly) — Command line template
-- [tiny-web](https://github.com/2kabhishek/tiny-web) — Web app template
+- [mac2k](https://github.com/2kabhishek/mac2k) — Desktop Environment
 
 <hr>
 
