@@ -64,6 +64,7 @@ Was learning about testing chrome extensions and decided to create a demo for th
 
 ### 💡 Challenges/Learnings
 
+- You can persist the id of a chrome extension by adding the public key to the [manifest](https://developer.chrome.com/docs/extensions/reference/manifest/key), this is necessary for testing.
 - Learned about the chrome extension ecosystem and how to test them.
 
 ### 🧰 Tooling
